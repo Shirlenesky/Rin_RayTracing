@@ -13,43 +13,52 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="资源文件\First">
+      <UniqueIdentifier>{efce1714-30cb-4b0b-ab1a-8069d3e89d56}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main_9.cpp">
+    <ClCompile Include="main_77.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="main_3.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
+    </ClCompile>
+    <ClCompile Include="main_9.cpp">
+      <Filter>资源文件\First</Filter>
     </ClCompile>
     <ClCompile Include="main_10.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
     </ClCompile>
     <ClCompile Include="main_11.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
     </ClCompile>
     <ClCompile Include="main_24.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
     </ClCompile>
     <ClCompile Include="main_30.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
     </ClCompile>
     <ClCompile Include="main_33.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
     </ClCompile>
     <ClCompile Include="main_34.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
     </ClCompile>
     <ClCompile Include="main_36.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
     </ClCompile>
     <ClCompile Include="main_49.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
     </ClCompile>
     <ClCompile Include="main_70.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\First</Filter>
+    </ClCompile>
+    <ClCompile Include="main_71.cpp">
+      <Filter>资源文件\First</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +87,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="material.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="moving_sphere.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

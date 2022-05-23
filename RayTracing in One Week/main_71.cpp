@@ -5,7 +5,6 @@
 #include "camera.h"
 #include "vec3.h"
 #include "material.h"
-#include "moving_sphere.h"
 
 #include<iostream>
 using namespace std;
@@ -55,8 +54,7 @@ hittable_list random_scene()
 					// diffuse
 					auto albedo = color::random() * color::random();
 					sphere_material = make_shared<lambertian>(albedo);
-					auto center2 = center + vec3(0, random_double(0, .5), 0);
-					world.add(make_shared<moving_sphere>(center, center2, 0.0, 1.0, 0.2, sphere_material));
+					world.add(make_shared<sphere>(center, 0.2, sphere_material));
 				}
 				else if (choose_mat < 0.95)
 				{
@@ -88,11 +86,11 @@ hittable_list random_scene()
 int main()
 {
 	//Image
-	auto aspect_ratio = 16.0 / 9.0;
-	int image_width = 400;
+	const auto aspect_ratio = 3.0 / 2.0;
+	const int image_width = 1200;
 	const int image_height = static_cast<int>(image_width / aspect_ratio);
-	const int samples_per_pixel = 10;
-	const int max_depth = 30;
+	const int samples_per_pixel = 100;
+	const int max_depth = 50;
 
 	//World
 	auto world = random_scene();
@@ -104,7 +102,7 @@ int main()
 	vec3 vup(0, 1, 0);
 	auto dist_to_focus = 10.0;
 	auto aperture = 0.1;
-	camera cam(lookfrom, lookat, vup, 20, aspect_ratio, aperture, dist_to_focus, 0.0, 1.0);
+	camera cam(lookfrom, lookat, vup, 20, aspect_ratio, aperture, dist_to_focus);
 
 
 
