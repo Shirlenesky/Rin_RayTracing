@@ -63,6 +63,12 @@
     <ClCompile Include="main_26.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="main_27.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main_37.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vec3.h">
@@ -102,6 +108,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="perlin.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
