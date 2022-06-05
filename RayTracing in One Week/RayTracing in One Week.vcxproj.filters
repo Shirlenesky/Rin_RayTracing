@@ -75,6 +75,15 @@
     <ClCompile Include="main_46.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="main_50.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main_53.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main_57.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vec3.h">
@@ -123,6 +132,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aarect.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
