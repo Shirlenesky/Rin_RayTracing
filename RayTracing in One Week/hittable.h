@@ -80,6 +80,7 @@ public:
 	aabb bbox;
 };
 
+
 rotate_y::rotate_y(shared_ptr<hittable> p, double angle) : ptr(p)
 {
 	auto radians = degrees_to_radians(angle);

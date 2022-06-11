@@ -55,7 +55,10 @@ bool sphere::hit(const ray& r, double t_min, double t_max, hit_record& rec) cons
 	rec.p = r.at(rec.t);
 	vec3 outward_normal = (rec.p - center) / radius;
 	rec.set_face_normal(r, outward_normal);
+	//这里传入的第一个参数是光线与球的交点却不是rec.p
+	//因为rec.p是光线交点的世界坐标，这里法线坐标是球的局部坐标，传入的是局部坐标
 	get_sphere_uv(outward_normal, rec.u, rec.v);
+
 	rec.mat_ptr = mat_ptr;
 
 	return true;
