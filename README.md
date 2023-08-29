@@ -1,5 +1,5 @@
-# Rin_RayTracinginWeekend
-个人阅读RayTracingInOneWeekend后的学习
+# Rin_RayTracing
+阅读RayTracingInOneWeekend后的学习
 
 目前只完成了前两部分，代码里删删改改调调试试了很多东西
 
